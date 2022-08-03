@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class claseLuciano {
+public class MainEjercicio2 {
 
 	public static void main(String[] args) {
 		Set<String> invitados = new TreeSet <>();
