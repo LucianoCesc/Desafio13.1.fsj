@@ -26,7 +26,7 @@ public class MainEjercicio3 {
 			}
 		}
 		
-		System.out.println(Golocinas_Baratas);
+		System.out.println(Golosinas_Baratas);
 		
 		
 		
