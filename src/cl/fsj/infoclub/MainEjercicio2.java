@@ -17,11 +17,18 @@ public class MainEjercicio2 {
 		invitados.add("Florencia");
 		invitados.add("Juan Pablo");
 		
-		Set<String> posiblesInvitados =new HashSet <>(Arrays.asList("Jorge","Francisco","Marcos"));
+		Set<String> posiblesInvitados =new TreeSet <>();
+		posiblesInvitados.add("Jorge");
+		posiblesInvitados.add("Francisco");
+		posiblesInvitados.add("Marcos");
 		
-		Set<String> listadoFinal = new TreeSet <>(invitados);
+		posiblesInvitados.remove("Jorge");
+		
+		Set<String> listadoFinal = new TreeSet <>();
+		listadoFinal.addAll(invitados);
 		listadoFinal.addAll(posiblesInvitados);
 		System.out.println(listadoFinal);
+		
 	}
 
 }
